@@ -203,8 +203,16 @@ The table below shows the time spent by each activity.
 | STEP 10    | 7287                       | 1829    | 7244                    | 16361                |
 | STEP 11    | 7244                       | 1042    | 3416                    | 11703                |
 
-The total execution time of workflow: `126005ms`
+The total execution time of each activities is `126005ms`
 
-The total upload/download time during the workflow execution: `111061ms`
+The total upload/download time during the activity execution is `111061ms`
 
-The overhead caused by accessing external storage: `88.1402%`
+The overhead caused by accessing external storage is `126005/11061` = `88.1402%`
+
+If Applied our Proposed System
+---
+The total execution time of each activities will be `20238ms`
+
+The total upload/download time during the activity execution is `5300ms`
+
+The overhead caused by accessing external storage is `20238/5300` = `26.1884%`
